@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/sushant/Documents/1_myWork/pywork/ChatProject/./models/nlu/default/horoscopebot/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/sushant/Documents/1_myWork/pywork/ChatProject/./models/nlu/default/horoscopebot/intent_classifier_tensorflow_embedding.ckpt"

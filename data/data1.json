@@ -1,0 +1,40 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greetings",
+        "entities": []
+      },
+      {
+        "text": "I want to know my Horoscope",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
+        "entities": []
+      },
+      {
+        "text": "Hi HoroscopeBot",
+        "intent": "greetings",
+        "entities": []
+      },
+      {
+        "text": "can I know my horoscope for the day",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "day",
+            "entity": "date"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
